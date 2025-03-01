@@ -1,0 +1,44 @@
+{
+  "customerData": [
+    {
+      "fillName": "lucy green",
+      "number": "901234678901",
+      "passenger": "female",
+      "pickUpDate": "2025-04-05",
+      "pickUPAddress": "nop avenue",
+      "DropAddress": "qrs plaza",
+      "PaidAmount": "110",
+      "id": 1
+    },
+    {
+      "fillName": "robert king",
+      "number": "112345789012",
+      "passenger": "male",
+      "pickUpDate": "2025-04-10",
+      "pickUPAddress": "tuv boulevard",
+      "DropAddress": "wxy square",
+      "PaidAmount": "130",
+      "id": 2
+    },
+    {
+      "fillName": "shekhar mali",
+      "number": "984848484",
+      "passenger": " fgrtyetryert",
+      "pickUpDate": "2025-02-11",
+      "pickUPAddress": "room no 4 ghatokpar ",
+      "DropAddress": " urtuertueruyuu  rtueuruer",
+      "PaidAmount": "576578",
+      "id": 3
+    },
+    {
+      "fillName": "shekhar",
+      "number": "64694964694965",
+      "passenger": "female",
+      "pickUpDate": "2025-03-25",
+      "pickUPAddress": "room no 4 ghatokpar ",
+      "DropAddress": "room no 8 mulund ",
+      "PaidAmount": "12",
+      "id": 4
+    }
+  ]
+}

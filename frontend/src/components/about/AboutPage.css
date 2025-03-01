@@ -1,0 +1,165 @@
+@import url('../assets/css/styles.css');
+
+
+.about-page {
+    font-family: var(--font-family);
+}
+
+/* About section container */
+.about-container {
+    display: flex;
+    justify-content: flex-start;
+    /* Align items to the left */
+    align-items: flex-start;
+    /* Align items to the top */
+    padding: 40px 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    /* Ensure elements wrap on smaller screens */
+}
+
+/* Left side - content */
+.left-side {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    /* Align text to the left */
+}
+
+/* Right side - image */
+.right-side {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    /* Align text and image to the left */
+}
+
+/* About image styling */
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Reverse section (for second section) */
+.about-container.reverse {
+    flex-direction: row-reverse;
+}
+
+
+.left-side h2,
+.right-side h2 {
+    font-size: 2rem;
+    color: var(--yellow-dark);
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+
+.left-side p,
+.right-side p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--font-color);
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+
+/* Footer styling */
+.footer {
+    background-color: var(--yellow-dark);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsiveness for smaller screens */
+@media screen and (max-width: 1024px) {
+    .about-container {
+        flex-direction: column;
+        align-items: flex-start;
+        /* Align items to the left */
+    }
+
+    .left-side,
+    .right-side {
+        flex: none;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .about-image {
+        width: 80%;
+        max-width: 500px;
+    }
+
+    .left-side h2,
+    .right-side h2 {
+        font-size: 1.8rem;
+    }
+
+    .left-side p,
+    .right-side p {
+        font-size: 1rem;
+        text-align: left;
+        /* Ensure text stays aligned to the left */
+    }
+}
+
+/* Additional styling for extra small screens */
+@media screen and (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        align-items: flex-start;
+        /* Align items to the left */
+    }
+
+    .left-side,
+    .right-side {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .about-image {
+        width: 90%;
+    }
+
+    .left-side h2,
+    .right-side h2 {
+        font-size: 1.5rem;
+    }
+
+    .left-side p,
+    .right-side p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        text-align: left;
+        /* Align paragraphs to the left */
+    }
+}
+
+/* Extra small screens like mobile portrait */
+@media screen and (max-width: 480px) {
+    .about-container {
+        padding: 10px;
+    }
+
+    .left-side h2,
+    .right-side h2 {
+        font-size: 1.3rem;
+    }
+
+    .left-side p,
+    .right-side p {
+        font-size: 0.8rem;
+        text-align: left;
+        /* Align text to the left on small screens */
+    }
+
+    .about-image {
+        width: 100%;
+    }
+}

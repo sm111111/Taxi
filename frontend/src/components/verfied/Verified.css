@@ -1,0 +1,78 @@
+@import url('../assets/css/styles.css');
+
+.Verified-container {
+    width: 100%;
+
+    /* background: var(--yellow-dark); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 40px; */
+    font-family: var(--font-family);
+
+}
+
+.Verified-container .Verified-icon {
+    width: 100%;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.Verified-container .Verified-result-inside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.Verified-container .Verified-result .Verified-result-inside>h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: var(--font-color);
+}
+
+.Verified-container .Verified-result .Verified-result-inside>span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--font-color);
+}
+
+.Verified-container .Verified-result .Verified-result-inside>p {
+    width: 80%;
+    color: var(--font-color);
+}
+
+.Verified-container .Verified-result .Verified-result-inside>span {
+    padding: 10px 50px;
+    text-transform: uppercase;
+    background: var(--yellow-dark);
+    border-radius: 5px;
+    color: var(--font-color);
+    transition: 0.3s ease-in-out;
+    width: fit-content;
+
+}
+
+.Verified-container .Verified-result .Verified-result-inside>span:hover {
+    background: var(--yellow-shine);
+}
+
+@media (max-width:700px) {
+
+    .Verified-container .Verified-result-inside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Verified-container .Verified-result .Verified-result-inside>span {
+        width: fit-content;
+    }
+
+}

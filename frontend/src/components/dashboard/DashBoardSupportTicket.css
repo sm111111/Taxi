@@ -1,0 +1,152 @@
+@import url('../assets/css/styles.css');
+
+
+.DashBoardSupportTicket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #d1e0e4;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: var(--font-family);
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon-main {
+    font-size: 40px;
+    color: var(--font-color);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: var(--font-color);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.label {
+    font-size: 14px;
+    color: var(--font-color);
+    margin-bottom: 5px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    font-size: 18px;
+    color: var(--font-color);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px 15px;
+    padding-left: 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    color: var(--font-color);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button.submit-button {
+    background-color: var(--yellow-dark);
+    color: var(--font-color);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+button.submit-button:hover {
+    background-color: var(--yellow-shine);
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .DashBoardSupportTicket-container {
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .form {
+        padding: 10px;
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
+    }
+
+    button.submit-button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        max-width: 350px;
+        padding: 15px;
+    }
+
+    .icon-main {
+        font-size: 35px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    input,
+    textarea {
+        font-size: 14px;
+    }
+
+    button.submit-button {
+        font-size: 14px;
+    }
+}

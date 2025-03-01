@@ -1,0 +1,184 @@
+@import url('../assets/css/styles.css');
+
+.AuthPapge-container {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    /* background: rgb(228, 134, 134); */
+}
+
+.top-AuthPapge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-AuthPapge>h2 {
+    text-align: center;
+    text-transform: uppercase;
+    /* padding: 20px 0px; */
+}
+
+.AuthPapge-icon {
+    width: 100%;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.singup-field-option {
+    width: 300px;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.singup-field-option>span {
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+    background: var(--yellow-dark);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.singup-field-option>span:nth-child(1) {
+    background: rgb(93, 93, 235);
+}
+
+.singup-field-option>h5 {
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.singup-field-option>h5:hover {
+    color: grey;
+}
+
+/* ------------------------------------------------- */
+
+.AuthPapge-container .singup-field {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.AuthPapge-container .singup-field .singup-name-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AuthPapge-container .singup-field .singup-name-icon>input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.AuthPapge-container .singup-field .singup-name-icon {
+    font-size: 2rem;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.AuthPapge-container .singup-field .singup-name-icon:nth-child(4) {
+    background: var(--yellow-dark);
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+.AuthPapge-container .singup-field .singup-name-icon:nth-child(4):hover {
+    background: #000;
+}
+
+/* ------------------------------------------------------------ */
+
+.login-field {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-field .login-name-icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login-field .login-name-icon>input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.login-field .login-name-icon:nth-child(3) {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background: var(--yellow-dark);
+    color: white;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.login-field .login-name-icon:nth-child(3):hover {
+    background: #000;
+}
+
+
+/* ----------------------------------------------------------- */
+@media (max-width:700px) {
+    .AuthPapge-container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .AuthPapge-container .top-AuthPapge>h2 {
+        position: relative;
+        bottom: 60px;
+        font-size: 1.1rem;
+    }
+
+    .AuthPapge-container .top-AuthPapge .AuthPapge-icon {
+
+        width: 100%;
+        font-size: 10rem;
+    }
+
+    .singup-field-option {
+        width: 250px;
+        font-size: 1rem;
+        overflow: hidden;
+    }
+
+}

@@ -1,0 +1,90 @@
+@import url('../assets/css/styles.css');
+
+.MeetOurCars-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    font-family: var(--font-family);
+}
+
+.MeetOurCars-container>h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0px;
+    color: var(--font-color);
+}
+
+.MeetOurCars-container>h1::first-letter {
+    color: var(--yellow-dark);
+}
+
+.MeetOurCars-container .MeetOurCars-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.MeetOurCars-navbar .caricon-name-MeetOurCars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    /* background: greenyellow; */
+    width: 180px;
+    border: 0.1px solid rgb(231, 228, 228);
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: var(--font-color);
+}
+
+.MeetOurCars-navbar .caricon-name-MeetOurCars:hover {
+    background: var(--yellow-dark);
+    color: white;
+
+}
+
+.caricon-name-MeetOurCars>p {
+    font-size: 1rem;
+    color: var(--font-color);
+}
+
+
+.MeetOurCars-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: var(--font-color);
+
+}
+
+
+@media (max-width:700px) {
+
+    .MeetOurCars-container .MeetOurCars-navbar {
+        width: 100%;
+        overflow: hidden;
+
+        font-size: 0.8rem;
+
+    }
+
+    .MeetOurCars-navbar .caricon-name-MeetOurCars {
+        width: 50px;
+        padding: 5px 10px;
+
+    }
+
+    .caricon-name-MeetOurCars>p {
+        font-size: 0.6rem;
+    }
+}

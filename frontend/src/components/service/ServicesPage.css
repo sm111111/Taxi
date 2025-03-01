@@ -1,0 +1,116 @@
+@import url('../assets/css/styles.css');
+/* Importing root variables */
+
+/* Services page container */
+.services-page {
+    font-family: var(--font-family);
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+
+}
+
+/* Services header */
+.services-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-header h1 {
+    font-size: 2.5rem;
+    color: var(--yellow-dark);
+}
+
+.services-header p {
+    font-size: 1rem;
+    color: var(--font-color);
+    line-height: 1.6;
+}
+
+/* Services container */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Service item */
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.service-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.service-image {
+    flex: 1;
+}
+
+.service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.service-content {
+    flex: 1;
+}
+
+.service-content h2 {
+    font-size: 2rem;
+    color: var(--yellow-dark);
+    margin-bottom: 10px;
+}
+
+.service-content p {
+    font-size: 1rem;
+    color: var(--font-color);
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Footer */
+.services-footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: var(--yellow-shine);
+    border-radius: 8px;
+}
+
+.services-footer h3 {
+    font-size: 1.8rem;
+    color: var(--yellow-dark);
+}
+
+.services-footer p {
+    font-size: 1rem;
+    color: var(--font-color);
+}
+
+/* Responsiveness for smaller screens */
+@media screen and (max-width: 768px) {
+    .service-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-image img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .service-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .service-content p {
+        font-size: 0.9rem;
+    }
+}

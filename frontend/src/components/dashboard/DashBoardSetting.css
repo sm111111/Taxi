@@ -1,0 +1,78 @@
+@import url('../assets/css/styles.css');
+
+.DashBoardSetting-container {
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    font-family: var(--font-family);
+    background: #d1e0e4;
+    border-radius: 5px;
+}
+
+.DashBoardSetting-container .leftSide-DashBoardSetting {
+    flex: 250px 0;
+    background: rgb(248, 243, 243);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+
+
+
+.leftSide-DashBoardSetting .DashBoardSetting-tools {
+    width: 100%;
+    /* background: rgb(172, 175, 172); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: 0.3s ease-in;
+    font-weight: 600;
+    color: var(--font-color);
+
+}
+
+
+.leftSide-DashBoardSetting .DashBoardSetting-tools:hover {
+    background: var(--yellow-dark);
+}
+
+.DashBoardSetting-container .rigthSide-DashBoardSetting {
+    flex: 1;
+    /* background: rgb(182, 56, 56); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    padding: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    flex-wrap: wrap;
+    color: var(--font-color);
+
+}
+
+
+
+@media (max-width:700px) {
+    .DashBoardSetting-container .leftSide-DashBoardSetting {
+        width: 100%;
+    }
+
+    .DashBoardSetting-container .rigthSide-DashBoardSetting {
+        width: 100%;
+        font-size: 2rem;
+        flex-wrap: wrap;
+        display: none;
+    }
+}

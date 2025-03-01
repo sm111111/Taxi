@@ -1,0 +1,78 @@
+@import url('../assets/css/styles.css');
+
+.DashBoardVehicalBrand-container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--font-family);
+    background: #d1e0e4;
+    border-radius: 5px;
+}
+
+.DashBoardVehicalBrand-container .top-DashBoardVehicalBrand {
+    width: 100%;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--yellow-dark);
+    font-weight: 700;
+}
+
+.DashBoardVehicalBrand-container .inside-table {
+    width: 100%;
+    background: var(--yellow-dark);
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+.inside-table>table {
+    width: 100%;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+
+
+.inside-table>table>thead>tr>th {
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.inside-table>table>tbody>tr>td {
+    background: white;
+}
+
+.inside-table>table>tbody>tr>td {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.inside-table>table>tbody>tr>td .DashBoardVehicalBrand-icons {
+    color: var(--yellow-dark);
+    transition: transform 0.3s ease-in-out;
+    font-size: 1rem;
+}
+
+
+.inside-table>table>tbody>tr>td .DashBoardVehicalBrand-icons:hover {
+    transform: scale(1.2)
+}
+
+
+.inside-table>table>tbody>tr>td:nth-child(2) {
+    color: rgb(142, 223, 22);
+}
+
+.inside-table>table>tbody>tr>td:nth-child(3) {
+    letter-spacing: 10px;
+    cursor: pointer;
+    border-right: none;
+}

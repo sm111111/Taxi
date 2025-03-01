@@ -1,0 +1,61 @@
+@import url('../assets/css/styles.css');
+
+.Loading-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Loading-container .Loading-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: transparent;
+}
+
+
+
+.Loading-wrapper .flore-car-one {
+    width: 200px;
+    height: 200px;
+    transition: 0.3s ease-in-out;
+    animation: moveRight 5s ease-in-out infinite;
+    position: relative;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+        opacity: 0.5;
+    }
+
+    80% {
+        opacity: 1;
+        /* Fully visible while moving */
+    }
+
+    100% {
+        transform: translateX(1000px);
+        opacity: 0;
+        /* Vanish at the end */
+    }
+}
+
+@media (max-width:700px) {
+    .Loading-container .Loading-wrapper {
+        width: 100%;
+    }
+
+    .Loading-wrapper .flore-car-one {
+        width: 150px;
+        height: 150px;
+    }
+
+}

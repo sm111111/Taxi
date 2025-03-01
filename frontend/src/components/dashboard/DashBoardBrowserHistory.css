@@ -1,0 +1,111 @@
+@import url('../assets/css/styles.css');
+
+.DashBoardBrowserHistory-container {
+    width: 100%;
+    height: 100vh;
+    /* background: rgb(231, 165, 165); */
+    padding: 15px;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d1e0e4;
+    border-radius: 5px;
+
+}
+
+.inside-DashBoardBrowserHistory {
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
+    background: #d1e0e4;
+    border-radius: 10px;
+    padding: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Passengers {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.table-container {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background: var(--yellow-dark);
+    /* border: 1px solid rgb(206, 198, 198); */
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(206, 198, 198);
+    color: var(--font-color);
+}
+
+th {
+    font-weight: bold;
+    color: var(--font-color);
+}
+
+td {
+    background: #f8f5f5;
+    color: var(--font-color);
+}
+
+.table-icons {
+    font-size: 1.5rem;
+    color: var(--font-color);
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.table-icons:hover {
+    color: var(--font-two);
+}
+
+.action-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 450px) {
+    .inside-DashBoardBrowserHistory {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .Passengers {
+        font-size: 1.2rem;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    .table-icons {
+        font-size: 1.2rem;
+    }
+}

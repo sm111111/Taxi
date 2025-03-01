@@ -1,0 +1,20 @@
+.BlogPage-container {
+    width: 100%;
+}
+
+.BlogPage-container .inside-BlogPage {
+    padding: 0px 40px;
+}
+
+
+@media (max-width:700px) {
+    .BlogPage-container .inside-BlogPage {
+        width: 100%;
+        /* background: red; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 40px;
+    }
+
+}

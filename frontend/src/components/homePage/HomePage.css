@@ -1,0 +1,31 @@
+@import url('../assets/css/styles.css');
+
+.HomePage-container {
+    width: 100%;
+
+}
+
+
+.HomePage-section {
+    width: 100%;
+    padding: 0px 80px;
+}
+
+.HomePage-container .frezz-navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+@media (max-width:700px) {
+    .HomePage-container {
+        width: 100%;
+    }
+
+    .HomePage-section {
+        padding: 0px 40px;
+    }
+
+}

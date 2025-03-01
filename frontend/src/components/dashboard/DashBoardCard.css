@@ -1,0 +1,62 @@
+@import url('../assets/css/styles.css');
+
+.DashBoardCard-card-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: var(--font-family);
+}
+
+.DashBoardCard-card-container .DashBoardCard-container {
+    /* width: fit-content; */
+    padding: 10px 100px 10px 8px;
+    background: var(--yellow-shine);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.DashBoardCard-container .IoMdPerson-icon {
+    font-size: 2.4rem;
+    background: var(--font-two);
+    padding: 5px;
+    border-radius: 50%;
+    color: whitesmoke;
+}
+
+.inside-dashboard>h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--font-color);
+}
+
+.inside-dashboard>h1 {
+    font-size: 2rem;
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+@media (max-width:700px) {
+    .DashBoardCard-card-container .DashBoardCard-container {
+        /* width: fit-content; */
+        padding: 5px 30px 10px 8px;
+
+    }
+
+    .DashBoardCard-container .IoMdPerson-icon {
+        font-size: 2rem;
+    }
+
+    .inside-dashboard>h4 {
+        font-size: 0.8rem;
+    }
+
+    .inside-dashboard>h1 {
+        font-size: 1.5rem;
+    }
+}

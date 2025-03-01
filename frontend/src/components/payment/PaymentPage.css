@@ -1,0 +1,114 @@
+@import url('../assets/css/styles.css');
+
+.payment-container {
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: var(--font-color);
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: var(--font-color);
+}
+
+.payment-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-methods button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: var(--yellow-dark);
+    transition: background 0.3s ease;
+}
+
+.payment-methods button.active {
+    background: var(--yellow-dark);
+    color: var(--font-color);
+}
+
+.payment-methods button:hover {
+    background: var(--yellow-shine);
+    color: rgb(43, 40, 223);
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.payment-form label {
+    font-size: 14px;
+    text-align: left;
+    color: var(--font-color);
+}
+
+.payment-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.pay-btn {
+    background: var(--yellow-dark);
+    color: var(--font-color);
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.pay-btn:hover {
+    background: var(--yellow-shine);
+}
+
+/* Responsive Design for 450px */
+@media (max-width: 450px) {
+    .payment-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .payment-methods {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .payment-methods button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .pay-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,121 @@
+@import url('../assets/css/styles.css');
+
+.detailsPage-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background: #f0f0f0;
+    /* Removed red background for cleaner UI */
+}
+
+.booking-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: var(--font-family);
+}
+
+.booking-details-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.booking-details-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin-right: 20px;
+}
+
+.booking-details-card p {
+    font-size: 18px;
+    margin: 15px 0;
+    color: var(--yellow-dark);
+    font-weight: 700;
+}
+
+.booking-details-card p strong {
+    color: #0c0c0c;
+}
+
+.booking-details-card button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: var(--yellow-dark);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.booking-details-card .button-field {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.booking-details-card button:hover {
+    background-color: #ffca28;
+    /* Darker yellow for hover effect */
+    color: #0c0c0c;
+    text-transform: capitalize;
+}
+
+.booking-details-image {
+    width: 35%;
+    text-align: center;
+}
+
+.booking-details-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 700px) {
+    .booking-details-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .booking-details-card {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .booking-details-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .booking-details-card button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .booking-details-container h2 {
+        font-size: 20px;
+    }
+
+    .booking-details-card p {
+        font-size: 16px;
+    }
+}

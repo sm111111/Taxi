@@ -1,0 +1,91 @@
+@import url('../assets/css/styles.css');
+
+.ProfilePage-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-family: var(--font-family);
+}
+
+.ProfilePage-images {
+    width: 400px;
+    height: 300px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+}
+
+.ProfilePage-images>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.ProfilePage-personal-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--font-color);
+}
+
+.ProfilePage-personal-details>span::first-letter {
+    color: var(--yellow-dark);
+}
+
+.ProfilePage-personal-details>p {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.ProfilePage-personal-details>p::first-letter {
+    color: var(--yellow-dark);
+}
+
+.ProfilePage-personal-details>button {
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-weight: 900;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background: var(--yellow-dark);
+    color: var(--font-color);
+
+}
+
+/* .ProfilePage-personal-details>button::first-letter {
+    color: var(--yellow-dark);
+} */
+
+.ProfilePage-personal-details>button:hover {
+    background: var(--yellow-shine);
+}
+
+@media (max-width:700px) {
+    .ProfilePage-container {
+        width: 100%;
+    }
+
+    .ProfilePage-images {
+        width: 200px;
+        height: 200px;
+    }
+
+    .ProfilePage-personal-details>button {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+    }
+}

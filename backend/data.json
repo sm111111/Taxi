@@ -1,0 +1,327 @@
+{
+    "checkYourTravel": [
+        {
+            "traveler_name": "Raj",
+            "traveler_number": 9874561239,
+            "traveler_passenger": "Male",
+            "traveler_pickUpdate": "25/05/2025",
+            "traveler_pickUpAddress": "Room No. 5, Street 11, NYC",
+            "traveler_DropAddress": "Main Street 15, NYC"
+        },
+        {
+            "traveler_name": "Aisha",
+            "traveler_number": 9876543210,
+            "traveler_passenger": "Female",
+            "traveler_pickUpdate": "12/06/2025",
+            "traveler_pickUpAddress": "Apt 3B, Avenue 8, LA",
+            "traveler_DropAddress": "Central Park, NYC"
+        },
+        {
+            "traveler_name": "John",
+            "traveler_number": 9123456789,
+            "traveler_passenger": "Male",
+            "traveler_pickUpdate": "05/07/2025",
+            "traveler_pickUpAddress": "Villa 10, Miami Beach, FL",
+            "traveler_DropAddress": "Hollywood Blvd, CA"
+        },
+        {
+            "traveler_name": "Maria",
+            "traveler_number": 9234567890,
+            "traveler_passenger": "Female",
+            "traveler_pickUpdate": "18/08/2025",
+            "traveler_pickUpAddress": "Apartment 24, Texas",
+            "traveler_DropAddress": "Las Vegas Strip, NV"
+        },
+        {
+            "traveler_name": "Liam",
+            "traveler_number": 9345678901,
+            "traveler_passenger": "Male",
+            "traveler_pickUpdate": "30/09/2025",
+            "traveler_pickUpAddress": "Penthouse, Chicago, IL",
+            "traveler_DropAddress": "Golden Gate Bridge, SF"
+        }
+    ],
+    "meetOurCars": [
+        {
+            "car_img": "https://cars4rent.axiomthemes.com/wp-content/uploads/2016/09/car3.png",
+            "car_name": "Honda Civic",
+            "car_ride_price": 50,
+            "car_model": "Sedan",
+            "car_year": 2015,
+            "car_gear": "Automatic",
+            "car_cooling": "Air Condition"
+        },
+        {
+            "car_img": "https://img.freepik.com/free-psd/red-isolated-car_23-2151852884.jpg?ga=GA1.1.1091205206.1739886712&semt=ais_hybrid",
+            "car_name": "Toyota Corolla",
+            "car_ride_price": 45,
+            "car_model": "Sedan",
+            "car_year": 2018,
+            "car_gear": "Manual",
+            "car_cooling": "Air Condition"
+        },
+        {
+            "car_img": "https://img.freepik.com/free-vector/white-convertible-car-isolated-white-vector_53876-66815.jpg?ga=GA1.1.1091205206.1739886712&semt=ais_hybrid",
+            "car_name": "Ford Mustang",
+            "car_ride_price": 80,
+            "car_model": "Coupe",
+            "car_year": 2020,
+            "car_gear": "Automatic",
+            "car_cooling": "Air Condition"
+        },
+        {
+            "car_img": "https://cars4rent.axiomthemes.com/wp-content/uploads/2016/09/car3.png",
+            "car_name": "Chevrolet Tahoe",
+            "car_ride_price": 90,
+            "car_model": "SUV",
+            "car_year": 2022,
+            "car_gear": "Automatic",
+            "car_cooling": "Climate Control"
+        },
+        {
+            "car_img": "https://img.freepik.com/free-psd/red-isolated-car_23-2151852884.jpg?ga=GA1.1.1091205206.1739886712&semt=ais_hybrid",
+            "car_name": "Tesla Model S",
+            "car_ride_price": 120,
+            "car_model": "Electric Sedan",
+            "car_year": 2023,
+            "car_gear": "Automatic",
+            "car_cooling": "Air Condition"
+        },
+        {
+            "car_img": "https://img.freepik.com/free-vector/white-convertible-car-isolated-white-vector_53876-66815.jpg?ga=GA1.1.1091205206.1739886712&semt=ais_hybrid",
+            "car_name": "Honda Civic",
+            "car_ride_price": 50,
+            "car_model": "Sedan",
+            "car_year": 2015,
+            "car_gear": "Automatic",
+            "car_cooling": "Air Condition"
+        },
+        {
+            "car_img": "https://cars4rent.axiomthemes.com/wp-content/uploads/2016/09/car3.png",
+            "car_name": "Toyota Corolla",
+            "car_ride_price": 45,
+            "car_model": "Sedan",
+            "car_year": 2018,
+            "car_gear": "Manual",
+            "car_cooling": "Air Condition"
+        },
+        {
+            "car_img": "https://img.freepik.com/free-psd/red-isolated-car_23-2151852884.jpg?ga=GA1.1.1091205206.1739886712&semt=ais_hybrid",
+            "car_name": "Ford Mustang",
+            "car_ride_price": 80,
+            "car_model": "Coupe",
+            "car_year": 2020,
+            "car_gear": "Automatic",
+            "car_cooling": "Air Condition"
+        },
+        {
+            "car_img": "https://img.freepik.com/free-vector/white-convertible-car-isolated-white-vector_53876-66815.jpg?ga=GA1.1.1091205206.1739886712&semt=ais_hybrid",
+            "car_name": "Chevrolet Tahoe",
+            "car_ride_price": 90,
+            "car_model": "SUV",
+            "car_year": 2022,
+            "car_gear": "Automatic",
+            "car_cooling": "Climate Control"
+        }
+    ],
+    "testimonials": [
+        {
+            "review_name": "Saul S. Graham",
+            "review_img": "https://demo.farost.net/goodride/wp-content/uploads/2017/06/people-003-150x150.jpg",
+            "review_other": "Tennessee",
+            "review_comment": "Lorem ipsum, dolor sit amet consectetur..."
+        },
+        {
+            "review_name": "Emily R. Smith",
+            "review_img": "https://demo.farost.net/goodride/wp-content/uploads/2017/06/people-003-150x150.jpg",
+            "review_other": "California",
+            "review_comment": "Amazing service, highly recommend!"
+        },
+        {
+            "review_name": "Michael Johnson",
+            "review_img": "https://demo.farost.net/goodride/wp-content/uploads/2017/06/people-003-150x150.jpg",
+            "review_other": "Florida",
+            "review_comment": "Great experience, will book again!"
+        },
+        {
+            "review_name": "Sophia L. Davis",
+            "review_img": "https://demo.farost.net/goodride/wp-content/uploads/2017/06/people-003-150x150.jpg",
+            "review_other": "New York",
+            "review_comment": "Very comfortable ride, drivers are professional."
+        },
+        {
+            "review_name": "James Wilson",
+            "review_img": "https://demo.farost.net/goodride/wp-content/uploads/2017/06/people-003-150x150.jpg",
+            "review_other": "Texas",
+            "review_comment": "On-time pickup and drop, no complaints."
+        }
+    ],
+    "blog": [
+        {
+            "blog_img": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhdmVsfGVufDB8fDB8fHww",
+            "blog_heading": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "blog_details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates hic nesciunt voluptate quos vel cupiditate tenetur ut laudantium ipsum ipsa?"
+        },
+        {
+            "blog_img": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhdmVsfGVufDB8fDB8fHww",
+            "blog_heading": "Top 10 Travel Destinations for 2025",
+            "blog_details": "Explore the best places to visit in 2025 and make unforgettable memories."
+        },
+        {
+            "blog_img": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhdmVsfGVufDB8fDB8fHww",
+            "blog_heading": "Why Electric Cars are the Future of Travel?",
+            "blog_details": "The rise of EVs is changing the way we commute. Learn more about it."
+        },
+        {
+            "blog_img": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhdmVsfGVufDB8fDB8fHww",
+            "blog_heading": "How to Plan a Budget-Friendly Trip?",
+            "blog_details": "Tips and tricks for saving money while traveling without compromising comfort."
+        },
+        {
+            "blog_img": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhdmVsfGVufDB8fDB8fHwwp",
+            "blog_heading": "Best Road Trips You Must Take Once in a Lifetime!",
+            "blog_details": "A list of the most scenic and adventurous road trips around the world!"
+        }
+    ],
+    "luxurycars": [
+        {
+            "type_carname": "Audi",
+            "type_model": "Sedan",
+            "type_rating": "5 star"
+        },
+        {
+            "type_carname": "BMW",
+            "type_model": "SUV",
+            "type_rating": "4 star"
+        },
+        {
+            "type_carname": "Mercedes",
+            "type_model": "Sedan",
+            "type_rating": "3 star"
+        },
+        {
+            "type_carname": "Tesla",
+            "type_model": "Luminous",
+            "type_rating": "5 star"
+        },
+        {
+            "type_carname": "Toyota",
+            "type_model": "SUV",
+            "type_rating": "4 star"
+        },
+        {
+            "type_carname": "Honda",
+            "type_model": "Sedan",
+            "type_rating": "3 star"
+        },
+        {
+            "type_carname": "Ford",
+            "type_model": "SUV",
+            "type_rating": "4 star"
+        },
+        {
+            "type_carname": "Chevrolet",
+            "type_model": "Sedan",
+            "type_rating": "3 star"
+        },
+        {
+            "type_carname": "Nissan",
+            "type_model": "SUV",
+            "type_rating": "4 star"
+        },
+        {
+            "type_carname": "Volkswagen",
+            "type_model": "Luminous",
+            "type_rating": "2 star"
+        }
+    ],
+    "Localcars": [
+        {
+            "model_name": "Tata Ace",
+            "model_status": "available",
+            "seats": 4
+        },
+        {
+            "model_name": "Tata 407",
+            "model_status": "available",
+            "seats": 6
+        },
+        {
+            "model_name": "Maruti Suzuki Eeco",
+            "model_status": "no",
+            "seats": 5
+        },
+        {
+            "model_name": "Maruti Suzuki Wagon R",
+            "model_status": "available",
+            "seats": 5
+        },
+        {
+            "model_name": "Toyota Innova Crysta",
+            "model_status": "available",
+            "seats": 7
+        },
+        {
+            "model_name": "Toyota Fortuner",
+            "model_status": "no",
+            "seats": 7
+        },
+        {
+            "model_name": "Tata Sumo",
+            "model_status": "available",
+            "seats": 8
+        },
+        {
+            "model_name": "Maruti Suzuki Swift",
+            "model_status": "available",
+            "seats": 5
+        },
+        {
+            "model_name": "Toyota HiAce",
+            "model_status": "available",
+            "seats": 12
+        },
+        {
+            "model_name": "Tata Nano",
+            "model_status": "no",
+            "seats": 4
+        }
+    ],
+    "passengers": [
+        {
+            "passenger_name": "John Doe",
+            "passenger_number": "9345467890",
+            "passenger_gender": "Male",
+            "passenger_dateOFTrvaling": "2025-03-01",
+            "passenger_payment": "Paid"
+        },
+        {
+            "passenger_name": "Jane Smith",
+            "passenger_number": "9876543210",
+            "passenger_gender": "Female",
+            "passenger_dateOFTrvaling": "2025-03-02",
+            "passenger_payment": "Pending"
+        },
+        {
+            "passenger_name": "Mike Johnson",
+            "passenger_number": "8122334455",
+            "passenger_gender": "Male",
+            "passenger_dateOFTrvaling": "2025-03-03",
+            "passenger_payment": "Paid"
+        },
+        {
+            "passenger_name": "Emily Brown",
+            "passenger_number": "7566778899",
+            "passenger_gender": "Female",
+            "passenger_dateOFTrvaling": "2025-03-04",
+            "passenger_payment": "Paid"
+        },
+        {
+            "passenger_name": "David Wilson",
+            "passenger_number": "9988776655",
+            "passenger_gender": "Male",
+            "passenger_dateOFTrvaling": "2025-03-05",
+            "passenger_payment": "Pending"
+        }
+    ]
+}
