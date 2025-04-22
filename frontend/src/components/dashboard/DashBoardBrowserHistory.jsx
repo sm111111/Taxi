@@ -13,7 +13,7 @@ const DashBoardBrowserHistory = () => {
 
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/customerData')
+        axios.get('https://taxi-14en.onrender.com/api/customerData')
             .then(response => {
                 setBrowserHistory(response.data);
             })
@@ -26,7 +26,7 @@ const DashBoardBrowserHistory = () => {
 
     const deleteTheEntry = async (Id) => {
         try {
-            const response = await axios.delete(`http://localhost:5000/api/customerData/${Id}`);
+            const response = await axios.delete(`https://taxi-14en.onrender.com/api/customerData/${Id}`);
             console.log(response.data.message);
             setBrowserHistory(browserHistory.filter(item => item.id !== id));
 

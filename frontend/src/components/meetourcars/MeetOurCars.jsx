@@ -11,7 +11,7 @@ const MeetOurCars = () => {
     const [selectedFilter, setSelectedFilter] = useState("all");
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/cars')
+        axios.get('https://taxi-14en.onrender.com/api/cars')
             .then(response => {
                 setCarData(response.data)
                 setFilteredData(response.data);

@@ -19,7 +19,7 @@ const Contact = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post("http://localhost:5000/api/contact", contactData);
+            const response = await axios.post("https://taxi-14en.onrender.com/api/contact", contactData);
             showSuccessToast("Success! Message sent successfully.");
             setContactData({ name: "", email: "", message: "" });
         } catch (error) {

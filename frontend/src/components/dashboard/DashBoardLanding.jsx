@@ -30,13 +30,12 @@ const DashBoardLanding = () => {
     //     setActive(currentState => !currentState);
     // };
 
-    const showtheleftside = () => {
-        setActive(!active);
-    };
 
-    const closeMenu = () => {
-        setActive(false);
-    };
+
+    const handelOpen = () => {
+        setActive(prev => !prev)
+    }
+
 
     const redirectToProfile = () => {
         navigate('/profile');
@@ -45,7 +44,7 @@ const DashBoardLanding = () => {
     return (
         <div className='DashBoardLanding-container'>
             <div className='DashBoardLanding-top'>
-                <IoMenu onClick={showtheleftside} />
+                <IoMenu onClick={handelOpen} />
                 <IoPersonCircleSharp onClick={redirectToProfile} />
             </div>
 

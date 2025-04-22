@@ -6,7 +6,7 @@ const DashBoardType = ({ model_name, model_status, seats }) => {
     const [typeData, setTypeData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/local')
+        axios.get('https://taxi-14en.onrender.com/api/local')
             .then(response => {
                 setTypeData(response.data)
             })

@@ -8,7 +8,7 @@ const DashBoardModel = ({ type_carname, type_model, type_rating }) => {
     const [modelCars, setModelsCars] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/luxary')
+        axios.get('https://taxi-14en.onrender.com/api/luxary')
             .then(response => {
                 console.log('Response data:', response.data);
                 setModelsCars(response.data);

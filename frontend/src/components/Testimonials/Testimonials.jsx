@@ -9,7 +9,7 @@ const Testimonials = () => {
     const [testimonialsData, setTestimonialsData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/testimonials')
+        axios.get('https://taxi-14en.onrender.com/api/testimonials')
             .then(response => {
                 setTestimonialsData(response.data)
             })

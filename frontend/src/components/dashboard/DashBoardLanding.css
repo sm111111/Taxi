@@ -138,17 +138,13 @@
 
     .DashBoardLanding-container .inside-wrapper-DashBoardLanding .left-section {
         display: none;
+
     }
 
     .DashBoardLanding-container .inside-wrapper-DashBoardLanding .left-section.show-active {
         display: flex;
+        width: 50%;
     }
 
-    /* .DashBoardLanding-container .inside-wrapper-DashBoardLanding .rigth-section {
-        display: flex;
-    }
 
-    .DashBoardLanding-container .inside-wrapper-DashBoardLanding .rigth-section.hide-active {
-        display: none;
-    } */
 }

@@ -11,7 +11,7 @@ const BookingDetails = () => {
     const [customer, setCustomer] = useState(null);
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/api/customerData/${id}`)
+        axios.get(`https://taxi-14en.onrender.com/api/customerData/${id}`)
             .then(response => setCustomer(response.data))
             .catch(error => console.error("Error fetching details:", error));
     }, [id]);

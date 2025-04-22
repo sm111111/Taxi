@@ -10,7 +10,12 @@ dotenv.config();
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+    {
+        origin: 'https://taxi-14en.onrender.com',
+        credential: true
+    }
+));
 
 
 const __dirname = path.resolve();

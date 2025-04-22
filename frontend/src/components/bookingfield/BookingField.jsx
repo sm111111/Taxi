@@ -32,7 +32,7 @@ const BookingField = () => {
         }
 
         try {
-            await axios.post(`http://localhost:5000/api/customerData`, bookYourTravel);
+            await axios.post(`https://taxi-14en.onrender.com/api/customerData`, bookYourTravel);
             showSuccessToast("Redirecting to the next page...");
 
             setBookYourTravel({

@@ -7,7 +7,7 @@ const Blog = ({ blog_img, blog_heading, blog_details }) => {
     const [blogData, setBlogData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/blogs')
+        axios.get('https://taxi-14en.onrender.com/api/blogs')
             .then(response => {
                 setBlogData(response.data)
             })
